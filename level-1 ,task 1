@@ -1,0 +1,105 @@
+--------------task1.html-------------
+!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles1.css">
+    <title>CONTEL HOTELS</title>
+</head>
+<body>
+    <header>
+        <h1>CONTEL HOTELS</h1>
+        <p>&#11088;&#11088;&#11088;&#11088;</p>
+    </header>
+
+    <section id="hero">
+        <div class="hero-content">
+            <h2>WELCOME TO CONTEL HOTELS</h2>
+            <p>A Stay Like In Heaven</p>
+            <a href="#Site" class="btn">Open Site</a>
+        </div>
+    </section>
+
+    <section id="DISOUNT">
+        <a href="#discount" class="btn">Discount coupons</a>
+       <P>Checkout our fascinating discount coupons...</P>
+    </section>
+
+    <section id="about">
+        <a href="#about" class="btn">ABOUT</a>
+        <p>Learn more about our hotel...</p>
+    </section>
+
+    <section id="contact">
+        <a href="#contact" class="btn">CONTACT</a>
+        <p>To know about your stay...</p>
+    </section>
+    
+    <section id="help">
+        <a href="#help" class="btn">HELP</a>
+        <p>For any customer related queries...</p>
+    </section>
+
+    <footer>
+        <p>&copy; 2023 CONTEL HOTEL. All rights reserved.</p>
+    </footer>
+</body>
+</html>
+
+-------------------styles1.css-----------------------
+body, h1, h2, p {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background: url("hotel.jpg");
+    color:#0c0404;
+}
+
+header {
+    color: #333;
+    text-align: center;
+    padding: 35px;
+}
+
+header h1 {
+    font-size: 35px;
+}
+
+section {
+    padding: 32px;
+    text-align: left;
+}
+
+.hero-content {
+    text-align: center;
+}
+
+.hero-content h2 {
+    font-size: 30px;
+    margin-bottom: 10px;
+}
+
+.btn {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #160865;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+.btn:hover {
+    background-color: #ac3a20;
+}
+
+footer {
+    text-align: center;
+    padding: 16px;
+    background-color: #606060;
+    color: #fff;
+}
